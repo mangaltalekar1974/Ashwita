@@ -29,12 +29,12 @@ public class Test {
 		nominee1.setEmail("priyanka@123");
 		// create 2nd nominee
 		Nominee nominee2 = new Nominee();
-		nominee2.setName("pratiksha");
-		nominee2.setEmail("pratiksha@123");
+		nominee2.setName("govind");
+		nominee2.setEmail("govind@123");
 		// cerate 3rd nominee
 		Nominee nominee3 = new Nominee();
-		nominee3.setName("ashwita");
-		nominee3.setEmail("ashwita@123");
+		nominee3.setName("mangal");
+		nominee3.setEmail("mangal@123");
 		/// set the one user has many nominee
 		user1.getNomineelist().add(nominee1);
 		user1.getNomineelist().add(nominee2);
